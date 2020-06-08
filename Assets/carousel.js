@@ -26,6 +26,11 @@ var myChart = new Chart(ctx, {
       }]
   },
   options: {
+      title:{
+          display: true,
+          text: 'Left PieChart',
+          fontSize: 25
+      }
   }
 });
 
@@ -57,6 +62,11 @@ var ctx = document.getElementById('TestChart2');
         }]
     },
     options: {
+        title:{
+            display: true,
+            text: 'Middle PieChart',
+            fontSize: 25
+        }
     }
 });
 
@@ -85,8 +95,34 @@ var ctx = document.getElementById('TestChart3');
                 'rgba(255, 159, 64)'
             ],
              borderWidth: 1
+        },
+        {
+            label: '# of takes',
+            data: [1, 13, 31, 25, 12, 3],
+            backgroundColor: [
+                'rgba(255, 99, 132)',
+                'rgba(54, 162, 235)',
+                'rgba(255, 206, 86)',
+                'rgba(75, 192, 192)',
+                'rgba(153, 102, 255)',
+                'rgba(255, 159, 64)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132)',
+                'rgba(54, 162, 235)',
+                'rgba(255, 206, 86)',
+                'rgba(75, 192, 192)',
+                'rgba(153, 102, 255)',
+                'rgba(255, 159, 64)'
+            ],
+             borderWidth: 1,
         }]
     },
     options: {
+        title:{
+            display: true,
+            text: 'Right PieChart',
+            fontSize: 25
+        }
     }
 });
