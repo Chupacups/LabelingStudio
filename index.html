@@ -9,7 +9,7 @@
     <title>Animalpedia - Nature's album</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
-
+    
     <!-- Bootstrap core CSS -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 
@@ -30,7 +30,8 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="Assets/carousel.css" rel="stylesheet">
+    <link href="Assets/css/carousel.css" rel="stylesheet">
+    <link href="Assets/css/style.css" rel="stylesheet"/>
   </head>
   <body>
     <header>
@@ -105,16 +106,15 @@
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
-      
+    <div class="row" height="500px">
       <div class="col-lg-4">
-        <canvas id="TestChart" height="50%" width="50%"></canvas>
+        <div id="levelChart" height="50%" width="50%"></div>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <canvas id="TestChart2" height="50%" width="50%"></canvas>
+        <div id="biomeChart" height="50%" width="50%"></div>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <canvas id="TestChart3" height="50%" width="50%"></canvas>
+        <div id="polygonlabelChart" height="50%" width="50%"></div>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -173,8 +173,10 @@
     <p>&copy; 2020 Chupacups, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
-<script src="Assets/carousel.js"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script></body>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+<script src="jQuery-3.3.1/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script> -->
+<script src="Js/jquery.canvasjs.min.js"></script>
+<script src="Js/chart.js"></script>
+      <script>window.jQuery || document.write('<script src="../js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script></body>
 </html>
