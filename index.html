@@ -9,7 +9,7 @@
     <title>Animalpedia - Nature's album</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
-
+    
     <!-- Bootstrap core CSS -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 
@@ -30,7 +30,7 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="Assets/carousel.css" rel="stylesheet">
+    <link href="Assets/css/carousel.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -63,26 +63,26 @@
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="white"/><image href="https://www.nationalgeographic.com/content/dam/animals/2019/08/camera-trap-gallery/11-african-forest-elephant.adapt.1900.1.jpg" x="-50%" y="-40%" height="200%" width="200%" /></svg>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <h1>African Forest Elephant.</h1>
+            <p>An African forest elephant (Loxodonta africana), the largest land animal on Earth, bathes in Gabon’s Loango National Park. Elephants love spending time in the water to get away from the heat, using their trunks to spray water and protective coatings of dust over their bodies.</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="white"/><image href="https://www.nationalgeographic.com/content/dam/animals/2019/08/camera-trap-gallery/13-indian-one-horned-rhino.adapt.1900.1.jpg" x="-50%" y="-50%" height="200%" width="200%"></svg>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <h1>Indian One-Horned Rhino.</h1>
+            <p>A camera trap captures the image of a bloodied Indian one-horned rhino (Rhinoceros unicornis) in Kaziranga National Park, India. Though massive, the rhino is surprisingly nimble and speedy when necessary––their charges have been timed at 30 miles per hour.</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/><<image href="https://www.nationalgeographic.com/content/dam/animals/2019/08/camera-trap-gallery/02-gray-wolf.adapt.1900.1.jpg" x="-50%" y="-50%" height="200%" width="200%"></svg>
         <div class="container">
           <div class="carousel-caption">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <h1>Gray Wolf.</h1>
+            <p>Spotted feeding on a drowned bison in Yellowstone National Park, the gray wolf (Canis lupus) was once almost hunted to extinction in the lower 48 U.S. states. A reintroduction effort to parts of the U.S. West in the 1990s has helped some of the population recover.</p>
           </div>
         </div>
       </div>
@@ -105,16 +105,16 @@
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
-      
+    <h1 id="chart-title">Data Charts</h1>
+    <div class="row" height="500px">
       <div class="col-lg-4">
-        <canvas id="TestChart" height="50%" width="50%"></canvas>
+        <div id="levelChart" height="50%" width="50%"></div>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <canvas id="TestChart2" height="50%" width="50%"></canvas>
+        <div id="biomeChart" height="50%" width="50%"></div>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <canvas id="TestChart3" height="50%" width="50%"></canvas>
+        <div id="polygonlabelChart" height="50%" width="50%"></div>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -130,7 +130,7 @@
         <p><a class="btn btn-secondary" href="#" role="button">View Albums &raquo;</a></p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Norwegian photographer Audun Rikardson won the ‘bird behaviour’ category with this camera trap photo of a golden eagle surveying the landscape. It took three years for this eagle to become accustomed to the camera's presence.</title><rect width="100%" height="100%" fill="white"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text><image href="Assets/Images/animal.jpg" x="0" y="0" height="100%" width="100%"/></svg>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Norwegian photographer Audun Rikardson won the "bird behavior" category with this camera trap photo of a golden eagle surveying the landscape. It took three years for this eagle to become accustomed to the camera's presence.</title><rect width="100%" height="100%" fill="white"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text><image href="Assets/Images/animal.jpg" x="0" y="0" height="100%" width="100%"/></svg>
       </div>
     </div>
 
@@ -143,7 +143,7 @@
         <p><a class="btn btn-secondary" href="#" role="button">View Albums &raquo;</a></p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Zakouma National Park, a region of grasses and acacia in southeastern Chad, lost more than 90 percent of its elephants during the century’s first decade, mostly to mounted bandits (janjaweed) from Sudan. Conservation group African Parks took over management in 2010, and now the elephants feel safe enough to disperse more broadly and produce an abundance of calves. Photograph by Brent Stirton</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text><image href="Assets/Images/population.jpg" x="0" y="0" height="100%" width="100%"/></svg>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Zakouma National Park, a region of grasses and acacia in southeastern Chad, lost more than 90 percent of its elephants during the century’s first decade, mostly to mounted bandits (janjaweed) from Sudan. Conservation group African Parks took over management in 2010, and now the elephants feel safe enough to disperse more broadly and produce an abundance of calves.</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text><image href="Assets/Images/population.jpg" x="0" y="0" height="100%" width="100%"/></svg>
       </div>
     </div>
 
@@ -156,7 +156,7 @@
         <p><a class="btn btn-secondary" href="#" role="button">View Albums &raquo;</a></p>  
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Stefan Christmann won top distinction in the ‘portfolio award‘ category, for his work on the Ekström Ice Shelf in Antarctica. He captured this image of more than 5,000 emperor penguins on a freezing cold day during a brief moment of twilight.</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text><image href="Assets/Images/cold-biome.jpg" x="0" y="0" height="100%" width="100%"/></svg>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Stefan Christmann won top distinction in the "portfolio award" category, for his work on the Ekström Ice Shelf in Antarctica. He captured this image of more than 5,000 emperor penguins on a freezing cold day during a brief moment of twilight.</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text><image href="Assets/Images/cold-biome.jpg" x="0" y="0" height="100%" width="100%"/></svg>
       </div>
     </div>
 
@@ -173,8 +173,8 @@
     <p>&copy; 2020 Chupacups, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
-<script src="Assets/carousel.js"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script></body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="Assets/Js/jquery.canvasjs.min.js"></script>
+<script src="Assets/Js/chart.js"></script>
+      <script>window.jQuery || document.write('<script src="../js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script></body>
 </html>
