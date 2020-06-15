@@ -16,7 +16,7 @@ function createGallery(id, data) {
         galleryFilterTagsMode: 'multiple',
 
         // GALLERY AND THUMBNAIL LAYOUT
-        thumbnailHeight: '250', thumbnailWidth: '250',
+        thumbnailHeight: '300', thumbnailWidth: '500',
         thumbnailAlignment: 'fillWidth',
         galleryDisplayMode: 'fullContent',
         gallerySorting: 'random',
