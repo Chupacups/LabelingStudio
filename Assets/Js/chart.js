@@ -93,7 +93,8 @@ CanvasJS.addColorSet("greenShades",
         "#8e6a55",
         "#abad71",
         "#8ea594",
-        "#374046"
+        "#374046",
+        "#422717"
     ]);
 
 function createChart(id, title, label, arr) {
