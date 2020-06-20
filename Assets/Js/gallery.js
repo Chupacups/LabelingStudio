@@ -2,6 +2,15 @@ jQuery(document).ready(function () {
     $.getJSON("../Assets/Json/newResult.json", function (data) {
         createGallery("#nanogallery2", data)
     });
+    $.getJSON("../Assets/Json/levels.json", function (data) {
+        createGallery("#levelgallery", data)
+    });
+    $.getJSON("../Assets/Json/biomes.json", function (data) {
+        createGallery("#biomegallery", data)
+    });
+    $.getJSON("../Assets/Json/kinds.json", function (data) {
+        createGallery("#kindgallery", data)
+    });
 });
 
 function createGallery(id, data) {
