@@ -31,3 +31,7 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.form-inline{
+  margin-left: 50%;
+}
