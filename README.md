@@ -12,7 +12,7 @@ Images are taken from National Geographics website.
   * The gallery site html file are located in /pages whereas the scripts for charts and image gallery are located in Assets/Js/
 
 
-# Anggota
+# The Team
 * Leader    : Titis Sampurno (191524062)  
 * Analyst   : Azzam Badruz Zaman (191524037)  
 * Designer
