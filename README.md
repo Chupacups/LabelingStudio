@@ -4,8 +4,8 @@ AnimalPedia is an image gallery of wildlife nature, we use image labelling and a
 Images are taken from National Geographics website.
 
 # File process locations
-* Process 1 (Data scraping) juptyter notebook and json result are located in Assets/Scraping
-* Process 2 (image labelling and annotations) results are located in Assets/Json/
+* Process 1 (data scraping) jupyter notebook and json result are located in Assets/Scraping
+* Process 2 (image abelling and annotations) results are located in Assets/Json/
 * Process 3 (visualization and presentation):
   * The index.html file is located on the root folder
   * The css and js files are located in Assets/
