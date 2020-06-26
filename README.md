@@ -13,10 +13,8 @@ Images are taken from National Geographics website.
 
 
 # Anggota
-* Leader
-    Titis Sampurno (191524062)  
-* Analyst
-    Azzam Badruz Zaman (191524037)  
+* Leader  : Titis Sampurno (191524062)  
+* Analyst : Azzam Badruz Zaman (191524037)  
 * Designer
   * M. Faza I. R. (191524050)  
   * Tubagus M Akbar K (191524063)  
