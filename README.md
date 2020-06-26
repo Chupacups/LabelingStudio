@@ -4,12 +4,12 @@ AnimalPedia is an image gallery of wildlife nature, we use image labelling and a
 Images are taken from National Geographics website.
 
 # Anggota
-Leader     : Titis Sampurno 		        (191524062)
-Analyst    : Azzam Badruz Zaman	      (191524037)
-Designer   : M. Faza I. R. 		         (191524050)
-             Tubagus M Akbar K 	      (191524063)
-Programmer : Friska Intan Muta’alliy 	(191524043)
-             Rizka Auliarahmi 		      (191524057)
+Leader     : Titis Sampurno 		        (191524062)  
+Analyst    : Azzam Badruz Zaman	      (191524037)  
+Designer   : M. Faza I. R. 		         (191524050)  
+             Tubagus M Akbar K 	      (191524063)  
+Programmer : Friska Intan Muta’alliy 	(191524043)  
+             Rizka Auliarahmi 		      (191524057)  
 
 # File process locations
 * Process 1 (data scraping) jupyter notebook and json result are located in Assets/Scraping
