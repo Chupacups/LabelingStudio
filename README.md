@@ -1,7 +1,7 @@
 # AnimalPedia
 AnimalPedia is an image gallery of wildlife nature, we use image labelling and annotation to labels each image in our gallery.
 
-Images are taken from National Geographics website.
+Images are taken from [National Geographics website](https://www.nationalgeographic.com/animals/photos/).
 
 # File process locations
 * Process 1 (data scraping) jupyter notebook and json result are located in Assets/Scraping
