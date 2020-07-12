@@ -18,9 +18,9 @@ https://bootstrapious.com/p/universal-business-e-commerce-template
 * =====================
 *
 */
-.boxed {
+/* .boxed {
   background: url("../img/boxed-pattern.png");
-}
+} */
 
 .boxed #all {
   max-width: 1200px;
@@ -3113,7 +3113,7 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE  
  */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  /* font-family: "Roboto", Helvetica, Arial, sans-serif; */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -3121,7 +3121,7 @@ body {
   background-color: #fff;
 }
 
-a {
+/* a {
   color: #4fbfa8;
   text-decoration: none;
 }
@@ -3129,9 +3129,9 @@ a {
 a:focus, a:hover {
   color: #348e7b;
   text-decoration: underline;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -3148,9 +3148,9 @@ h6,
   font-weight: 700;
   line-height: 1.1;
   color: inherit;
-}
+} */
 
-h1,
+/* h1,
 .h1 {
   font-size: 2.2rem;
 }
@@ -3178,7 +3178,7 @@ h5,
 h6,
 .h6 {
   font-size: 0.8rem;
-}
+} */
 
 .lead {
   font-size: 1.25rem;
